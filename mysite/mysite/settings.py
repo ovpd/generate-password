@@ -25,7 +25,7 @@ SECRET_KEY = '5#l1$+qtjzne4o@4(1m5j6_(gdn-_)81kn++0n4kr#2iymcmmz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'password-generate.herokuapp.com']
 
 
 # Application definition
