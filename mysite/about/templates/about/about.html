@@ -1,19 +1,25 @@
-{% extends 'mainApp/homePage.html' %}
-
-{% block content %}
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-  <h5 class="my-0 mr-md-auto font-weight-normal">Password Generator</h5>
-  <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-dark" href="mysite/">Discussions</a>
-    <a class="p-2 text-dark" href="mysite/">About project</a>
-  </nav>
-  <a class="btn btn-outline-primary" href="https://github.com/python77777121/generate-password">Code on Github</a>
-</div>
-<div>
-  page about
-
-</div>
-
-
-
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="https://png.pngtree.com/svg/20170726/_password_371297.png">
+  <title>About</title>
+  {% load staticfiles %}
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+ </head>
+ <body style="background: white">
+   <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+     <h5 class="my-0 mr-md-auto font-weight-normal">Password Generator</h5>
+     <nav class="my-2 my-md-0 mr-md-3">
+       <a class="p-2 text-dark" href="{% url 'index' %}">Home</a>
+       <a class="p-2 text-dark" href="{% url 'discussions' %}">Discussions</a>
+       <a class="p-2 text-dark" href="{% url 'about' %}">About project</a>
+     </nav>
+     <a class="btn btn-outline-primary" href="https://github.com/python77777121/generate-password">Code on Github</a>
+   </div>
+   <div class="container">
+   </div>
+ </body>
+</html>
