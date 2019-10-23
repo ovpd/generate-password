@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 django = "*"
 dynaconf = {extras = ["yaml"],version = "*"}
-
+requests = "*"
 
 [requires]
 python_version = "3.6"
