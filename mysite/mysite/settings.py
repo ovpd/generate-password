@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'password-generate.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'discussions',
+    'about',
     'mainApp',
     'django.contrib.admin',
     'django.contrib.auth',
