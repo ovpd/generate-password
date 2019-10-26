@@ -4,4 +4,4 @@ from mainApp.generate import random_password
 
 
 def index(request):
-    return render(request, 'mainApp/homePage.html', {"random_password": random_password()})
+    return render(request, 'mainApp/generator.html', {"random_password": random_password(), "Name": "Home"})
