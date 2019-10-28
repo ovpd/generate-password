@@ -11,6 +11,7 @@ dynaconf = {extras = ["yaml"],version = "*"}
 requests = "*"
 pip = "*"
 dj-database-url = "*"
+django-allauth = "*"
 
 [requires]
 python_version = "3.6"
