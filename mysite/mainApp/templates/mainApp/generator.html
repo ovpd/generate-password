@@ -29,8 +29,13 @@
 
     <div class="row">
       <div class="col-md-3"></div>
-      <div class="col-md-5 text-left" ><h1 style="color: #ffffff;">{{random_password}} <h1/></div>
-        <div class="col-md-2">&nbsp;<img src="https://sun9-38.userapi.com/c858120/v858120140/c011a/rD_PlaQleMo.jpg" width="45" height="45" alt="logo" />&nbsp;&nbsp;<img src="https://sun9-15.userapi.com/c858120/v858120140/c0134/fKlx4r6fDeU.jpg" width="45" height="45" alt="logo" /></button></div>
+      <div class="col-md-5 text-left" ><h1 style="color: #ffffff;"><input type="text" name="comment" size="22"
+   value={{random_password}} id = "copy"
+   readonly></h1></div>
+        <div class="col-md-2">&nbsp;
+          <img src="https://sun9-38.userapi.com/c858120/v858120140/c011a/rD_PlaQleMo.jpg" width="45" height="45" alt="logo" onclick="{% url "index" %}" />
+          &nbsp;&nbsp;
+          <img src="https://sun9-15.userapi.com/c858120/v858120140/c0134/fKlx4r6fDeU.jpg" width="45" height="45" alt="logo" onclick="Tocopy()" /></div>
       <div class="col-md-3"></div>
     </div>
     <div class="container"><hr></div>
@@ -46,5 +51,6 @@
     </div> -->
 
     </div>
+
 
 {% endblock %}
