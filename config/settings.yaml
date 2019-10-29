@@ -1,7 +1,7 @@
 default:
   SECRET_KEY: ""
   DEBUG: true
-  ALLOWED_HOSTS: [*]
+  ALLOWED_HOSTS: ["*"]
 
 heroku:
   DEBUG: false
