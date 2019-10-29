@@ -8,4 +8,4 @@ heroku:
   ALLOWED_HOSTS:
     - 127.0.0.1
     - localhost
-    - password_generate.herokuapp.com
+    - password-generate.herokuapp.com
