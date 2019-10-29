@@ -82,7 +82,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
+#.env
 .venv
 env/
 venv/
@@ -104,7 +104,7 @@ venv.bak/
 .mypy_cache/
 
 #secrets
-secrets.py
+**/.secrets.*
 
 #recovery
 .Pipfile.swp

@@ -12,6 +12,7 @@ requests = "*"
 pip = "*"
 dj-database-url = "*"
 django-allauth = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.6"
