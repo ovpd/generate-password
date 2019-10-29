@@ -1,5 +1,5 @@
 default:
-  SECRET_KEY:
+  SECRET_KEY: ""
   DEBUG: true
   ALLOWED_HOSTS: []
 
