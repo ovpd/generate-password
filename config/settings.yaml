@@ -2,6 +2,7 @@ default:
   SECRET_KEY: ""
   DEBUG: True
   ALLOWED_HOSTS: []
+  DATABASE_URL: ""
 
 heroku:
   DEBUG: False
