@@ -1,1 +1,14 @@
 {%extends 'mainApp/homePage.html'%}
+
+{%block content%}
+
+{% load socialaccount %}
+
+<h1 style="color: #ffffff;"> allauth Test</h1>
+{% if user.is_authenticated %}
+<p style="color: #ffffff;">Welcome {{ user.username }}
+  {{ user.user_mail }} !!!</p>
+{% else %}
+<a href="{% provider_login_url 'github' %}">Sign Up</a>
+{% endif %}
+{%endblock%}
