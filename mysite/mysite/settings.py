@@ -143,4 +143,4 @@ AUTHENTICATION_BACKENDS = (
 
 SITE_ID = 2
 
-LOGIN_REDIRECT_URL = 'disscussions'
+LOGIN_REDIRECT_URL = 'discussions'
