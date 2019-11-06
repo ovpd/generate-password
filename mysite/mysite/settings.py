@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'discussions',
     'about',
     'mainApp',
-    'githubus',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -144,4 +143,4 @@ AUTHENTICATION_BACKENDS = (
 
 SITE_ID = 2
 
-LOGIN_REDIRECT_URL = 'githubus'
+LOGIN_REDIRECT_URL = 'disscussions'

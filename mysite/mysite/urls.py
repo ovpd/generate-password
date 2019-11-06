@@ -21,6 +21,5 @@ urlpatterns = [
     path('', include('mainApp.urls')),
     path('about/', include('about.urls')),
     path('discussions/', include('discussions.urls')),
-    path('githubus/', include('githubus.urls')),
     path('accounts/', include('allauth.urls')),
 ]
