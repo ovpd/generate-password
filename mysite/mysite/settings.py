@@ -141,6 +141,6 @@ AUTHENTICATION_BACKENDS = (
     "allauth.account.auth_backends.AuthenticationBackend",
 )
 
-SITE_ID = 1
+SITE_ID = 2
 
 LOGIN_REDIRECT_URL = 'disscussions'
