@@ -35,9 +35,6 @@ ALLOWED_HOSTS = _settings.ALLOWED_HOSTS
 # Application definition
 
 INSTALLED_APPS = [
-    'discussions',
-    'about',
-    'mainApp',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -49,6 +46,10 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.github',
+    'discussions',
+    'about',
+    'mainApp',
+
 ]
 
 MIDDLEWARE = [
